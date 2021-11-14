@@ -1,0 +1,116 @@
+img {
+    max-width: 100%;
+}
+
+
+/* #img1{
+    width: 300px;
+    height: 200px;
+  }
+
+#img2{
+    width: 80px;
+    height: 80px;
+  } */
+
+.cartao{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.cHeader{
+    height: 150px;
+}
+
+.cHeader img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cConteudo{
+    background-color: rgb(151, 147, 147);
+    padding: 30px;
+    height: 200px;
+    /* position: relative; */
+}
+
+.cTitulo{
+    height: 20px;
+    margin: 0;
+    font-size: 0.8rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#titulo{
+    font-size: 0.8rem;
+}
+#cont1 {
+    text-align: center;
+}
+
+.copyR {
+    text-decoration: none;
+    color: #333; 
+}
+.copyR:hover{
+    color: #fff;
+}
+
+.cExp{
+    color: #fff;
+    margin: 10px 0 20px;
+    font-weight: bolder;
+}
+
+.autor{
+    display: flex;
+}
+
+.profile-img{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+.autor-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 100px;
+    text-shadow:grey 1px 1px;
+}
+
+.autor-info small {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.animated-bg {
+  background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%
+  );
+  background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+
+.animated-bg-text {
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  height: 10px;
+  width: 100%;
+}
